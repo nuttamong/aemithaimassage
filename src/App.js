@@ -27,6 +27,7 @@ function App() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-nabar-nav' style={ {color: 'whitesmoke'} } />
           <Navbar.Collapse id='basic-nabar-nav'>
+            <div className='me-auto'></div>
             <Nav className='nav-item'>
               <Nav.Link style={ nav_item } onClick={() =>scrollComponent('home')}>Home</Nav.Link>
               <Nav.Link style={ nav_item } onClick={() =>scrollComponent('history')}>History</Nav.Link>

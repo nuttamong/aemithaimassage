@@ -13,7 +13,7 @@
 
 .welcome {
     font-family: 'Montserrat', sans-serif;
-    font-size: calc(50px + 5vmin);
+    font-size: calc(50px + 2vmax);
     color: cornsilk;
 }
 

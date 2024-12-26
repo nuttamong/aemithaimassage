@@ -1,17 +1,20 @@
 import '../styles/History.css';
 import img from '../img/massage-budapest.jpg';
 import { useMediaQuery } from 'react-responsive';
+import { Container } from 'react-bootstrap';
 
 function History() {
   const desktopStyle = {
     display: "flex",
     flexDirection: 'row',
+    textAlign: 'left'
   }
 
   const tabletStyle = {
     display: "flex",
     flexDirection: 'column',
     alignItems: 'center',
+    textAlign: 'left'
   }
   const isDesktopOrLaptop = useMediaQuery(
     {minWidth: 1100}, undefined
@@ -39,7 +42,7 @@ function History() {
   ]
   
   return (
-    <div className='wrapper'>
+    <Container className='wrapper'>
       <h1>History</h1>
       {isDesktopOrLaptop && <div style={desktopStyle}>
         {content}
@@ -47,7 +50,7 @@ function History() {
       {isTableOrMobile && <div style={tabletStyle}>
         {content}
       </div>}
-    </div>
+    </Container>
   );
 }
 
