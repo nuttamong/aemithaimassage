@@ -1,0 +1,14 @@
+.Service {
+    background-color:rgb(215, 70, 215);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    padding-top: 0;
+}
+
+.container {
+    text-align: center;
+}

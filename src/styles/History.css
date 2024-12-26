@@ -1,0 +1,20 @@
+/* .History {
+    display: flex;
+    flex-direction: row;
+} */
+
+.wrapper {
+    background-color:rgb(215, 70, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color:antiquewhite;
+
+    h1 {
+        color: black;
+    }
+}

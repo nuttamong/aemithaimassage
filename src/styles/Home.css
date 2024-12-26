@@ -1,0 +1,22 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/theme.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.welcome {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(50px + 5vmin);
+    color: cornsilk;
+}
+
+.img {
+    max-height: 35dvh;
+}

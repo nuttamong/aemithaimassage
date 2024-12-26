@@ -1,0 +1,17 @@
+.Contact {
+    background-color:rgb(138, 4, 143);
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: large;
+    padding: 100px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.img {
+    max-width: 40dvh;
+}
+
+.img-owner {
+    padding-top: 10px;
+    max-width: 40dvh;
+}
