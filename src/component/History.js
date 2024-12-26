@@ -44,12 +44,12 @@ function History() {
   return (
     <Container className='wrapper'>
       <h1>History</h1>
-      {isDesktopOrLaptop && <div style={desktopStyle}>
+      {isDesktopOrLaptop && <Container style={desktopStyle}>
         {content}
-      </div>}
-      {isTableOrMobile && <div style={tabletStyle}>
+      </Container>}
+      {isTableOrMobile && <Container style={tabletStyle}>
         {content}
-      </div>}
+      </Container>}
     </Container>
   );
 }
