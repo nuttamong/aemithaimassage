@@ -20,10 +20,10 @@ function History() {
   const isTableOrMobile = useMediaQuery({ query: '(max-width: 1100px)'})
 
   const content = [
-      <div key={1} style={{padding: 30}}>
-          <img src={img} alt="logo" style={ {height: '50vh'}} />
+      <div key={1} style={{padding: 50}}>
+          <img src={img} alt="logo" style={ {maxHeight: '50vh'}} />
       </div>,
-      <div key={2} style={{padding: 30}}>
+      <div key={2} style={{padding: 50, paddingTop: 20}}>
         <h4>Traditionelle Thai-Massage und Spa-Massage</h4>
         <p>Die traditionelle Thai-Massage und die Spa-Massage haben je nach verwendeten Hilfsmitteln positive Auswirkungen auf den Körper. Unser Geschäft bietet verschiedene Arten von Massagen an, darunter:</p>
         <p> 1.	Traditionelle Thai-Massage</p>
