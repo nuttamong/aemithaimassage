@@ -24,7 +24,7 @@ function History() {
 
   const content = [
       <div key={1} style={{padding: 50}}>
-          <img src={img} alt="logo" style={ {maxWidth: '50vh'}} />
+          <img src={img} alt="logo" style={ {width: '40vw'}} />
       </div>,
       <div key={2} style={{padding: 50, paddingTop: 20}}>
         <h4>Traditionelle Thai-Massage und Spa-Massage</h4>
